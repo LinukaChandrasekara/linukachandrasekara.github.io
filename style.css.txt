@@ -1,0 +1,23 @@
+        h1 {
+            font-size: 4em; /* Large font size */
+            font-family: 'Arial', sans-serif; /* Font family */
+            color: #2c3e50; /* Dark color for the text */
+            text-align: center; /* Center align the text */
+            margin-top: 50px; /* Add space at the top */
+            text-transform: uppercase; /* Uppercase the text */
+            letter-spacing: 3px; /* Add some spacing between letters */
+            font-weight: bold; /* Make the font bold */
+        }
+
+        /* Add a shadow effect to the h1 */
+        h1::before {
+            content: " "; /* Adds a shadow effect to the text */
+            display: block;
+            position: absolute;
+            background: #34495e;
+            z-index: -1;
+            top: 3px;
+            left: 3px;
+            width: 100%;
+            height: 100%;
+        }
